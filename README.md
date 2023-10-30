@@ -1,4 +1,4 @@
-# C++ Array Operations
+# C++ Array Calculator
 This repository contains a C++ program for various array operations. It provides a menu-driven interface for performing the following operations:
 
 1. Finding Odd Numbers: Given an array, this option finds and displays all the odd numbers in it.
