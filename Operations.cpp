@@ -164,6 +164,7 @@ void bigNum(){                                      //Number: 4
 void smallNum(){                                    //Number: 5
     int size = 0;
 
+    cout << "You have chosen Finding the Smallest Number! " << endl;
     cout << "Please enter the size of the Array: ";
     cin >> size;
     cout << endl;
@@ -195,7 +196,7 @@ void smallNum(){                                    //Number: 5
 void swapBigSmall(){                                //Number: 6
     int size = 0;
 
-    cout << "You have chosen Finding the Smallest Number! " << endl;
+    cout << "You have chosen Swapping The Biggest and Smallest Integer in The Array! " << endl;
     cout << "Please enter the size of the Array: ";
     cin >> size;
     cout << endl;
@@ -412,7 +413,7 @@ void delInputUsr(){                                 //Number: 10
     int divisor;
     int newSize = 0;
     
-    cout << "You have chosen Deleting an Element Inputed by User! " << endl;
+    cout << "You have chosen Deleting an Element Divisible by the Integer Inputed by The User! " << endl;
     cout << "Enter the number of elements: ";
     cin >> n;
     cout << endl;
