@@ -28,7 +28,19 @@ void loopingSwitch() {
 
         cout << "Enter a number from 1 to 10 (-1 to exit): ";
         cin >> userInput;
+
+        while (cin.fail()) {
+                cin.clear(); 
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                cout << "Invalid input. Please enter a number from 1 to 10." << endl;
+
+                cout << "Enter a number from 1 to 10 (-1 to exit): ";
+                cin >> userInput;
+        }
+
+
         cout << endl;
+
         system("clear");
 
         if (userInput == -1) {
